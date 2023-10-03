@@ -1,0 +1,25 @@
+/* Global styles come from external css https://codepen.io/GreenSock/pen/gOWxmWG */
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+  
+
+  
+
+.container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+img{
+    width: 25vw;
+    height: 13vh;
+    left: 40vw;
+    top:0;
+   
+    position: absolute;
+}
