@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(199, 242, 243);
+    background-color: rgb(29, 59, 86);
 }
   
 
@@ -17,18 +17,29 @@
 }
 
 img{
-    width: 37vw;
-    height: 12vw;
+    width: 200px;
+    height: 80px;
     left: 33vw;
     top:0;
    
     position: absolute;
 }
 
+.anim{
+    position: relative;
+
+}
+.wev{
+    position: absolute;
+    left: 33vw;
+    top:20px;
+}
+
 #containerPartical{
     position: relative;
-    width: 95%;
-    height: 100%;
+    width: 175px;
+    height: 100px;
+    margin-left: 6px;
     
 }
 
