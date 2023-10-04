@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: aqua;
+    background-color: rgb(4, 7, 7);
 }
   
 
@@ -13,13 +13,28 @@
     display: flex;
     align-items: center;
     position: relative;
+    z-index: 100;
 }
 
 img{
-    width: 25vw;
-    height: 13vh;
-    left: 40vw;
+    width: 33vw;
+    height: 10vw;
+    left: 33vw;
     top:0;
    
     position: absolute;
+}
+
+#containerPartical{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    
+}
+
+.partical{
+    background-color: rgb(29, 88, 139);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
