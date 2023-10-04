@@ -35,7 +35,7 @@ for(var i=0;i<count;i++){
 
     gsap.set(elem, {
         x:gsap.utils.random(0,w),
-        y:gsap.utils.random(0,h)-(h*0.5),
+        y:gsap.utils.random(0,h)-(h*0.9),
         scale:gsap.utils.random(0.5,1),
         backgroundColor:gsap.utils.random(particalColor),
 
