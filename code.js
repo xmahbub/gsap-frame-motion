@@ -61,13 +61,13 @@ function animateA(elem){
      
     },)
 
-    // gsap.to(elem,gsap.utils.random(1,6),{
-    //     x:"+=50",
-    //     ease:'power1.inOut',
-    //     repeat:-1,
-    //     yoyo:true,
+    gsap.to(elem,gsap.utils.random(1,6),{
+        x:"+=50",
+        ease:'power1.inOut',
+        repeat:-1,
+        yoyo:true,
      
-    // })
+    })
 
 }
 

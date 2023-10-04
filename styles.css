@@ -17,8 +17,8 @@
 }
 
 img{
-    width: 200px;
-    height: 80px;
+    width: 250px;
+    height: 90px;
     left: 33vw;
     top:0;
    
@@ -31,16 +31,18 @@ img{
 }
 .wev{
     position: absolute;
-    left: 33vw;
+    left: 35vw;
     top:20px;
 }
 
 #containerPartical{
+    
     position: relative;
     width: 175px;
-    height: 100px;
-    margin-left: 6px;
-    top:200px
+    height: 300px;
+    overflow: hidden;
+    
+    
     
 }
 
