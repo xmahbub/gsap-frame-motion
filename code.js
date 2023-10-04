@@ -28,6 +28,7 @@ const count = 100
 var partical = "partical",
     w = container.offsetWidth,
     h = container.offsetHeight,
+    n = container.offsetHeight - 600,
     elem,
     particalColor= ["#33FFF0","#337AFF","#CDF7FD"];
 
@@ -40,7 +41,7 @@ for(var i=0;i<count;i++){
     tl.set(elem, {
         
         x:gsap.utils.random(0,w),
-        y:gsap.utils.random(0,h)-(h*0.9),
+        y:gsap.utils.random(0,h)-(h*4),
         scale:gsap.utils.random(0.5,1),
         backgroundColor:gsap.utils.random(particalColor),
 
@@ -53,7 +54,7 @@ for(var i=0;i<count;i++){
 function animateA(elem){
 
     tl.to(elem,gsap.utils.random(5,10),{
-        y:container.offsetHeight,
+        y: 10,
         ease:'none',
         repeat:-1,
         delay:-10,
